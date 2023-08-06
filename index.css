@@ -99,12 +99,14 @@ header .nav-bar{
 
     .menu-button{
         display: inline-flex;
+        justify-content: end;
         border-radius: 10px;
         width: 58px;
         height: 58px;
         background-color: #D9D9D9;
         height: 75px;
         width: 74px;
+        gap: 10px;
     
     }
     
