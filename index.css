@@ -81,14 +81,18 @@ header .nav-bar{
      
       
     } 
+    .logo{
+        display: block;
+    }
 
     .mobile-buttons{
     display: flex;
     gap: 10px;
     justify-content: space-between;
-   padding-right: 7rem;
+   padding-right: 2rem;
    padding-left: 4rem;
     margin-top: 2rem;
+   
    
     }
 
