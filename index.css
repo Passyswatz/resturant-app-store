@@ -75,70 +75,61 @@ header .nav-bar{
 }
 
 @media screen and (max-width: 900px) {
-
-    .menu-icon{
-        display: none;
-    }
    
-    
+    .nav-bar{
+        display: none;
+     
+      
+    } 
 
-    .menu-icon{
-       display: flex;
-      /* justify-content: end; */
-     padding-top: 1rem;
-       gap:15px;
-       margin-right: 30px;
+    .mobile-buttons{
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+    padding-right: 20px;
+    margin-top: 2rem;
+   
     }
 
-    .menu-icon .menu-icon-s{
+    .cart-icon-mobile{
+        display: inline-flex;
+     
+    }
+
+    .menu-button{
+        display: inline-flex;
         border-radius: 10px;
         width: 58px;
         height: 58px;
         background-color: #D9D9D9;
-
+        height: 75px;
+        width: 74px;
+    
     }
-
-    .menu-icon .menu-icon-s:hover{
-        border-radius: 10px;
-        width: 60px;
-        height: 60px;
+    
+    .menu-button:hover{
         background-color:#35B8BE;
-
     }
-
     
-    .cart-icon{display: none;
-    }
-
-    .nav-bar{
-        display: none;
-        margin-top: -5rem;
+    .menus-mobile{
       
-    }
-
-
-    
-
-    .nav-bar .navbar-menus{
-        position: absolute;
-        margin-top: 3rem;
-        flex-direction: column;
-        /* background: rgba(53, 184, 190, 0.03); */
-        background-color: #EFF9FA;
-        margin-top: 2rem;
-        width: 70%;
-        display: none;
-        padding-top: 4rem;
-        padding-bottom: 4rem;
-        text-align: center;
-        
-      
-        
-        
-    }
-
-    .navbar .navbar-menus.active{
+        padding-top: 30px; 
+        margin-left: 30px;
+        width: 90%;
+        height: 400px;
+        background-color:white;
+        color: black;
+        font-size: 20px;
         display: flex;
+        flex-direction: column;
+        line-height: 4rem;
+     
+      
+            
+    }
+    
+    .menus-mobile.hidden {
+        display: none;
     }
 
 
