@@ -123,6 +123,7 @@ header .nav-bar{
         display: flex;
         flex-direction: column;
         line-height: 4rem;
+        position: absolute;
      
       
             
