@@ -98,6 +98,7 @@ header .nav-bar{
 
     .cart-icon-mobile{
         display: inline-flex;
+        
      
     }
 
@@ -1385,6 +1386,222 @@ color: #FFFFFF;
 
 }
 
+/* footer */
+
+footer{
+    background-color:#b7d5d6 ;
+    list-style-type: none;
+}
+
+
+footer .footer{
+   display: flex;
+   background-color: #b7d5d6;
+   padding: 70px;
+   list-style-type: none;
+   
+ 
+}
+
+.temp{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   margin: 20px 50px;
+
+   
+}
+
+footer .img-side{
+   margin: 20px 50px;
+   padding-top: 20px;
+}
+
+footer .img-side img{
+   padding: 0 0 10px 0;
+}
+
+footer .img-side p{
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 19px;
+   letter-spacing: 0.05em;
+   color: #0000007c;
+}
+
+footer .temp{
+   margin-left: 12rem;
+}
+
+.temp a{
+   text-decoration: underline;
+   color: #00000065 ;
+}
+
+.flow li{
+   padding: 2rem 0;
+   font-size: 16px;
+}
+
+.flow h4{
+   font-size: 20px;
+}
+
+.flow{
+
+   margin-left: 4rem;
+}
+
+.base{
+    background-color: #b7d5d6;
+    margin-top: -4rem;
+    display: flex;
+   justify-content: space-between;
+   place-items: center;
+   padding: 120px;  
+ 
+}
+
+.base h6{
+   font-size: 16px;
+}
+
+.base a{
+   color: #0000006c;
+}
+
+.base img{
+   width: 60px;
+   margin: 7px;
+}
+
+.base p{
+   color: #000;
+} 
+
+
+
+/* Style for the menu icon */
+.cart-icon-mobile {
+    cursor: pointer;
+  }
+  
+  /* Style for the right sidebar */
+  .right-sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 300px; /* Adjust the width as per your preference */
+    background-color: #f1f1f1;
+    z-index: 9999;
+    padding: 20px;
+  }
+  
+  /* Style for the heading in the right sidebar */
+  .right-sidebar h2 {
+    margin-top: 0;
+  }
+  
+  /* Style for the button in the right sidebar */
+  .order-button {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Style for the close button in the right sidebar */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    background: transparent;
+    border: none;
+  }
+  
+  @media screen and (max-width: 655px) {
+
+   
+    footer{
+    display: block;
+    background-color: #b7d5d6;
+    padding: 60px 0;
+    list-style-type: none;
+    
+    }
+    
+    .temp{
+        display: inline;
+        margin: 0 0;
+    }
+
+    footer .img-side{
+        margin: 0 3rem;
+    }
+
+    footer .img-side p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0.05em;
+        color: #0000007c;
+        margin: 0;
+    }
+
+    footer .temp{
+        margin-left: 0rem;
+    }
+
+    .flow{
+        margin: 0 0rem;
+    }
+
+    .flow li{
+        padding: 1rem 0;
+        font-size: 16px;
+    }
+
+    .flow h4{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    
+    .flow{
+        padding: 0 3rem;
+    }
+
+    .base{
+        display: block;
+        align-items: center;
+    
+        
+    }
+
+    .base h6{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .base a{
+        color: #0000006c;
+    }
+    
+    .base img{
+        width: 70px;
+        margin: 0;
+        padding: 30px 20px;
+    }
+    
+
+  }
 
 
 
