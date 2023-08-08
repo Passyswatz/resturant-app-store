@@ -1,0 +1,120 @@
+.head{
+    height: 30vh;
+    background-color: rgba(53, 184, 190, 0.1);
+}
+.head h2{
+
+    justify-content: center;
+    padding: 5%;
+    font-family: 'inter';
+    font-size: 30px;
+    line-height: 40px;
+    text-indent: -50px;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+    margin: 3%;
+    flex-wrap: wrap;
+}
+.button #food{
+    background-color:#35B8BE;
+    color: white;
+}
+.button button{
+    text-decoration: none;
+    border: 0.5px solid;
+    padding: 15px 40px;
+    color: black;
+    border-radius: 6px;
+    background-color: white;
+}
+
+.head span{
+    color: #35B8BE;
+}
+.question{
+    flex: 1;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+.question p{
+    margin: 15px;
+    color: #35B8BE;
+}
+hr{
+    margin: 15px -5px 15px 13px;
+}
+.plus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.question img{
+    width: 15px;
+}
+/* stlye for delivery */
+.delivery{
+    flex: 1;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+.delivery p{
+    margin: 15px;
+    color: #35B8BE;
+}
+hr{
+    margin: 15px -5px 15px 13px;
+}
+.plus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.delivery img{
+    width: 15px;
+}
+/* style for company */
+
+.company{
+    flex: 1;
+    flex-direction: row;
+    padding: 5% 10%;
+}
+.company p{
+    margin: 15px;
+    color: #35B8BE;
+}
+hr{
+    margin: 15px -5px 15px 13px;
+}
+.plus{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.company img{
+    width: 15px;
+}
+.hidden{
+    display: none;
+}
+
+
+@media screen and (max-width:479px){
+.button{
+    flex-direction: column; 
+    flex-wrap: wrap;
+}
+.button button{
+    margin: 8px;
+    padding: 20px 10px;
+}
+}
