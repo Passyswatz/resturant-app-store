@@ -1,15 +1,17 @@
 .head{
     height: 30vh;
     background-color: rgba(53, 184, 190, 0.1);
+    text-align: center;
 }
 .head h2{
 
-    justify-content: center;
-    padding: 5%;
-    font-family: 'inter';
-    font-size: 30px;
+    font-family: "Inter",sans-serif;
+    font-size: 35px;
+    font-weight: 700;
     line-height: 40px;
-    text-indent: -50px;
+    letter-spacing: 0.05em;
+    padding-top: 4rem;
+    color: #35B8BE;
 }
 .button{
     display: flex;

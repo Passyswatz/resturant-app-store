@@ -9,9 +9,9 @@ fetch('https://fakestoreapi.com/products/').then((data) => {
         <img src=${values.image} alt="burger"/>
         <div class="menus-description">
           <h3>${values.title}</h3>
-        <p>dexcription goes here </p>
+        <p>description goes here </p>
           <input type="number" />
-          <button>add to cart</button>
+          <button class="add-to-cart">add to cart</button>
         </div>
         <div class="price">
           <p>${values.price} usd</p>
@@ -24,3 +24,8 @@ document.getElementById('card').innerHTML= data1;
     console.log(err)
 })
          
+
+
+
+
+
