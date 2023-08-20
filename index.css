@@ -1202,10 +1202,11 @@ color: #FFFFFF;
 
     font-family: "Inter" ,sans-serif;
    margin: 0 auto;
-    font-size: 60px;
+   margin-left: 2rem;
+    font-size: 40px;
     padding-top: 12rem;
-    font-weight: 700;
-    line-height: 72.61px;
+    font-weight: 600;
+    line-height: 50px;
     letter-spacing: 0.05em;
     /* text-align: left; */
     color: #35B8BE;
@@ -1306,10 +1307,7 @@ color: #FFFFFF;
     letter-spacing: 0.05em;
     text-align: left;
     padding-top: 10rem;
-    
-
-
-
+    color: #f1f1f1;
 }
 
 .support-div .home-button{
@@ -1318,6 +1316,8 @@ color: #FFFFFF;
     background: #FFFFFF;
     color: #35B8BE;
 }
+
+
 
 @media screen and (max-width: 1296px) {
     .support-div{
