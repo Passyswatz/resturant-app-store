@@ -1,5 +1,5 @@
 //burder
-fetch('https://fakestoreapi.com/products/').then((data) => {
+fetch('/').then((data) => {
     return data.json();
 }).then((fakeData) => {
     // console.log(fakeData)

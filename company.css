@@ -83,12 +83,21 @@ span{
     
 }
 
-.frame {
+.framee {
     color: white;
     font-size: 30px;
-    padding-top: 37rem;
-    
-    
+    padding-top: 15rem;
+    display: flex;
+    justify-content: space-around;
+ 
+}
+
+.framee h3{
+    text-align: center;
+}
+
+.framee p{
+    text-align: center;
 }
 
 
