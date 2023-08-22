@@ -150,7 +150,7 @@ header .nav-bar{
 
 }
 
-/* @media screen and (max-width:435px){
+ /* @media screen and (max-width:435px){
     .nav-bar{
         margin-top: -5rem;
     }
@@ -158,14 +158,14 @@ header .nav-bar{
     .menu-icon{
         padding-top: 6rem;
     }
-} */
+} 
 
 
-/* @media screen and (max-width:470px){
+ @media screen and (max-width:470px){
     .navbar .advert-text{
         display: none;
     }
-}  */
+}   */
 
 .navbar .advert-text{
     height: 70px;
@@ -318,7 +318,7 @@ header .nav-bar{
 .home-page{
  display: flex;
 
- padding-top: 20px;
+ padding-top: 7rem;
 
 }
 
