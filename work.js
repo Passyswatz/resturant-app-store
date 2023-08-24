@@ -64,12 +64,3 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   
-  <div class="menus" id="card">
-  <!-- Product items will be dynamically added here -->
-</div>
-<div class="cart-sidebar">
-  <h2>Cart</h2>
-  <ul id="cart-items">
-    <!-- Cart items will be dynamically added here -->
-  </ul>
-</div>
