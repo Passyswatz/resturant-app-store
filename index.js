@@ -21,6 +21,18 @@ document.getElementById("close-menu").addEventListener("click", function () {
 });
 
 
+   // Function to open the cart sidebar
+   document.getElementById("open-menu").addEventListener("click", function () {
+    document.querySelector(".cart-sidebar").removeAttribute("hidden");
+  });
+  
+  // Function to close the right sidebar
+  document.getElementById("close-menu").addEventListener("click", function () {
+    document.querySelector(".cart-sidebar").setAttribute("hidden", true);
+  });
+  
+
+
 
 
 //faq page
